@@ -3,7 +3,7 @@
 function main(){
 		//initializes the 26-cell-array of 2-cell-arrays with two words for each letter of the alphabet
 		var nice = [["awesome","articulate"],["brilliant","beautiful"],["cool","cute"],["dashing","darling"],["excellent","entertaining"],["funny","flirtatious"],["great","grand"],["hilarious","happy"],["intelligent","interesting"],["jovial","just"],["kind","kingly"],["lovely","light-hearted"],["marvelous","magnanamous"],["nice","noble"],["old-fashioned","optemistic"],["pretty","perfect"],["quality","quintessential"],["respected","right"],["sweet","sovereign"],["true","trustworthy"],["useful","united"],["valiant","virile"],["wonderful","wise"],["xehanort","xenophilic"],["youthful","yellow"],["zesty","zebra"]];	
-		var mean = [["asshole","antisocial"],["brutish","buffoon"],["crappy","cocky"],["douchey","dipshit"],["effed-up","entitled"],["fugly","failure"],["grimy","gutless"],["hidious","half-assed"],["juvenile","jerk"],["knuckle-dragging","killjoy"],["luddite","loser"],["moronic","missfit"],["nimcompoop","new jerseyan"],["ornery","off-putting"],["poop","poverty"],["quagmire","quack"],["rotund","rotten"],["slimy","stupid"],["troglodyte","twisted"],["ugly","unthinkable"],["vapid","vile"],["wrong","worst"],["xenophobic","x-out"],["yucky","yellow-bellied"],["zero","zoo-animal-lover"]]	
+		var mean = [["asshole","antisocial"],["brutish","buffoon"],["crappy","cocky"],["douchey","dipshit"],["effed-up","entitled"],["fugly","failure"],["grimy","gutless"],["hidious","half-assed"],["imbecile","irate"],["juvenile","jerk"],["knuckle-dragging","killjoy"],["luddite","loser"],["moronic","missfit"],["nimcompoop","new jerseyan"],["ornery","off-putting"],["poop","poverty"],["quagmire","quack"],["rotund","rotten"],["slimy","stupid"],["troglodyte","twisted"],["ugly","unthinkable"],["vapid","vile"],["wrong","worst"],["xenophobic","x-out"],["yucky","yellow-bellied"],["zero","zoo-animal-lover"]]	
 		var wack = [["asdfghjkl","armadillo"],["bimbo","blurryface"],["crazy","crayon eater"],["dayum","dinosaur"],["extra-crispy","ectoplasm"],["fart","freaky"],["giddy","gumptious"],["high","higher"],["illogical","iffy"],["jury-duty","james Bond"],["king-of-nothing","klingon"],["lollercopter","laughingstock"],["misanthropic","martian"],["noodley","nerdy"],["office clown","ogre"],["panic!","pants"],["quandary","quaint"],["ridiculous","rollercoaster"],["silly","siked out"],["tart","trippin\'"],["underwhelming","untamed"],["vilified","vape bro"],["weird","wasted"],["xenomorph","xylophonic"],["yelling","yassss"],["zazzy","zebra-striped"]];
 	
 	
@@ -45,7 +45,10 @@ function main(){
 			type[j][1] = buffer;
 			
 			}
+			
 		}
+		
+		if(b[i] === " "){console.log(" ");}
 	}
 }
 
